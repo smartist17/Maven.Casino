@@ -72,7 +72,6 @@ public class GoFish extends CardGame {
         int pickCard = (int) Math.floor(Math.random() * (this.dealersHand.size()));
         this.rankRequested = this.getRankOnCard(this.dealersHand.get(pickCard));
         return this.rankRequested;
-
     }
 
     public boolean checkIfRankInHand (ArrayList < String > handToCheck) {

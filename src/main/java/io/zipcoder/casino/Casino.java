@@ -91,7 +91,7 @@ public class Casino {
              break;
 
          case 2:
-             Craps craps = new Craps(currentPlayer);
+             CrapsV2 craps = new CrapsV2(currentPlayer);
              craps.crapsEngine();
              break;
 
@@ -103,7 +103,6 @@ public class Casino {
          case 4:
              GoFishEngine goFish = new GoFishEngine(currentPlayer);
              goFish.playGame();
-
              break;
          case 5:
              d.printAccountBalance(currentPlayer.getWallet());
